@@ -118,7 +118,7 @@ body {
   background-color: var(--cardBg);
   width: 300px;
   height: 520px;
-  margin: 0 auto;
+  margin: 10vh auto;
   padding: 2% 2%;
   border-radius: 15px;
   display: flex;
