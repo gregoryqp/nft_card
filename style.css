@@ -117,7 +117,7 @@ body {
   .mainComponent {
   background-color: var(--cardBg);
   width: 300px;
-  height: 520px;
+  height: 550px;
   margin: 10vh auto auto auto;
   padding: 2% 2%;
   border-radius: 15px;
