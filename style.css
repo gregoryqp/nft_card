@@ -1,0 +1,113 @@
+:root {
+  --softBlue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --mainBg: hsl(217, 54%, 11%);
+  --cardBg: hsl(216, 50%, 16%);
+  --hrLine: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+  --fontFamily: "Outfit", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--mainBg);
+}
+
+.mainComponent {
+  background-color: var(--cardBg);
+  width: 300px;
+  height: 520px;
+  margin: 22.5vh auto 0 auto;
+  padding: 2% 2%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.equilibriumPhoto {
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+}
+.headerUnderPhoto {
+  margin: 8% 0%;
+  font-family: var(--fontFamily);
+  font-weight: 600;
+  color: var(--white);
+}
+
+.paragraphUnderHeader {
+  margin-bottom: 8%;
+  font-family: var(--fontFamily);
+  font-size: 14px;
+  font-weight: 300;
+  color: hsl(0, 0%, 100%, 0.5);
+}
+.amountEthAndTimeToTheEnd {
+  display: flex;
+}
+.amountEth {
+  color: var(--Cyan);
+  font-family: var(--fontFamily);
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.amountEth img {
+  margin-right: 3%;
+}
+.timeToTheEnd {
+  width: 50%;
+  margin-bottom: 8%;
+  color: var(--softBlue);
+  font-family: var(--fontFamily);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.timeToTheEnd img {
+  margin-right: 3%;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 8%;
+}
+
+.avatarImage {
+  width: 10%;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: auto;
+  margin-right: 5%;
+}
+.creationOf {
+  color: hsl(0, 0%, 100%, 0.5);
+  font-family: var(--fontFamily);
+  font-size: 13px;
+}
+.nameAuthor {
+  font-family: var(--fontFamily);
+  font-size: 13px;
+  color: var(--white);
+}
+
+.attribution {
+  width: 300px;
+  margin: 0 auto;
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+  padding: 1% 0.5%;
+}
+.attribution a {
+  color: hsl(0, 0%, 100%, 0.5);
+}
